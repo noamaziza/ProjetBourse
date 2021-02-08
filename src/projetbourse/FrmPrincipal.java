@@ -284,12 +284,12 @@ public class FrmPrincipal extends javax.swing.JFrame {
              {
                  if(sommetotal<0)
                  {
-                    lblMessage.setText("vous preder sur cette action:  "+sommetotal);
+                    lblMessage.setText("vous preder sur cette action:  ");
                     
                  }
                  else 
                  {
-                     lblMessage.setText("vous gagner sur cette action:  "+sommetotal);
+                     lblMessage.setText("vous gagner sur cette action:  ");
                  }
                  
              }
@@ -305,7 +305,10 @@ public class FrmPrincipal extends javax.swing.JFrame {
 //                {
 //                    a.getQuantiteAchete().
 //                }
-
+//            if(txtQuantiteVendue=="")
+//            {
+//                ("saisir une quantiter");
+//            }
         
     }//GEN-LAST:event_btnVendreMouseClicked
 
