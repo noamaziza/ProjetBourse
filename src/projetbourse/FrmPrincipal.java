@@ -301,10 +301,10 @@ public class FrmPrincipal extends javax.swing.JFrame {
     private void btnVendreMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnVendreMouseClicked
         
         // A vous de jouer
-                for( Action a: LesActions )
-                {
-                    a.getQuantiteAchete().
-                }
+//                for( Action a: LesActions )
+//                {
+//                    a.getQuantiteAchete().
+//                }
 
         
     }//GEN-LAST:event_btnVendreMouseClicked
