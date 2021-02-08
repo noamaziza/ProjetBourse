@@ -272,22 +272,24 @@ public class FrmPrincipal extends javax.swing.JFrame {
     private void tblActionsMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblActionsMouseClicked
 
         // A vous de jouer
+       
         for( Action a: LesActions )
         {
+          int teste=  parseInt(tblActions.getValueAt(tblActions.getSelectedRow(),0).toString());
             double sommetotal =( a.getCoursReel()*a.getQuantiteAchete())-(a.getPrixAchat()*a.getQuantiteAchete());
 
-            double sommetotal1 =tblActions.getSelectedRow();
+           
 
-             if(a.getNumAction()==   parseInt(tblActions.getValueAt(tblActions.getSelectedRow(),0).toString())  )
+             if(a.getNumAction()==  teste  )
              {
-                 if(sommetotal1<0)
+                 if(sommetotal<0)
                  {
-                    lblMessage.setText("vous preder sur cette action:  "+sommetotal1);
+                    lblMessage.setText("vous preder sur cette action:  "+sommetotal);
                     
                  }
                  else 
                  {
-                     lblMessage.setText("vous gagner sur cette action:  "+sommetotal1);
+                     lblMessage.setText("vous gagner sur cette action:  "+sommetotal);
                  }
                  
              }
@@ -299,6 +301,11 @@ public class FrmPrincipal extends javax.swing.JFrame {
     private void btnVendreMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnVendreMouseClicked
         
         // A vous de jouer
+                for( Action a: LesActions )
+                {
+                    a.getQuantiteAchete().
+                }
+
         
     }//GEN-LAST:event_btnVendreMouseClicked
 
