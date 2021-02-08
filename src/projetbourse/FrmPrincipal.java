@@ -303,7 +303,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         // A vous de jouer
 //                for( Action a: LesActions )
 //                {
-//                    a.getQuantiteAchete().
+//                    a.getQuantiteAchete()
 //                }
 //            if(txtQuantiteVendue=="")
 //            {
